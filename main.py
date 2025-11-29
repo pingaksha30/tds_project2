@@ -1459,6 +1459,4 @@ async def handle_quiz(request: Request):
 async def root():
     return {"status": "LLM Quiz API is running"}
 
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+
